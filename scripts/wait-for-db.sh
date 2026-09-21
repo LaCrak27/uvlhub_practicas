@@ -20,5 +20,5 @@ while ! mariadb -h "$MARIADB_HOSTNAME" -P "$MARIADB_PORT" -u"$MARIADB_USER" -p"$
   sleep 1
 done
 
-echo "MariaDB is up - executing command"
+echo "MariaDB is up - executing commands"
 exec "$@"
